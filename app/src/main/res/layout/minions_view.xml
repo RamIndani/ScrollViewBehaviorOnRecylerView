@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:gravity="center"
+    android:background="@color/cardview_dark_background">
+
+    <TextView
+        android:id="@+id/minion_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        tools:text="Ray"
+
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/minion_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        tools:text="1000 year old"
+        android:textSize="14sp" />
+
+</LinearLayout>
